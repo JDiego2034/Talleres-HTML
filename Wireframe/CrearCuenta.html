@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WireFrame - Crear Cuenta</title>
+</head>
+
+<body style="font-family: 'Trebuchet MS', Arial; margin: 15px; background-color: #f5f7fa;">
+
+    <header style="border: 1px solid #aaa; background-color: white; padding: 15px; margin-bottom: 15px;">
+        <nav>
+            <strong style="color: #315f8c;">WireFrame</strong>
+            &nbsp;&nbsp;&nbsp;
+            <a href="index.html" style="color: #315f8c;">Página Principal</a>
+        </nav>
+    </header>
+
+    <main style="text-align: center;">
+
+        <section style="display: inline-block; width: 45%; min-width: 300px; border: 1px solid #aaa; background-color: white; padding: 25px;">
+
+            <h1 style="color: #315f8c;">Crear una Cuenta</h1>
+
+            <p>
+                Regístrate para comenzar a utilizar WireFrame.
+            </p>
+
+            <form action="#" method="post">
+
+                <p>
+                    <label for="nombre"><strong>Nombre Completo</strong></label><br>
+                    <input type="text" id="nombre" name="nombre"
+                           placeholder="Ingresa tu nombre" required>
+                </p>
+
+                <p>
+                    <label for="email"><strong>Correo Electrónico</strong></label><br>
+                    <input type="email" id="email" name="email"
+                           placeholder="ejemplo@correo.com" required>
+                </p>
+
+                <p>
+                    <label for="password"><strong>Contraseña</strong></label><br>
+                    <input type="password" id="password" name="password"
+                           placeholder="Ingresa tu contraseña" required>
+                </p>
+
+                <p>
+                    <label for="rol"><strong>Tipo de Cuenta</strong></label><br>
+                    <select id="rol" name="rol">
+                        <option value="creador">Creador de Contenido</option>
+                        <option value="editor">Editor</option>
+                        <option value="administrador">Administrador</option>
+                    </select>
+                </p>
+
+                <p>
+                    <button type="submit"
+                            style="background-color: #315f8c; color: white; padding: 9px 25px; border: 0;">
+                        Crear Cuenta
+                    </button>
+                </p>
+
+            </form>
+
+            <hr>
+
+            <p>
+                ¿Ya tienes una cuenta?
+                <a href="index.html" style="color: #315f8c;">Iniciar Sesión</a>
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer style="border: 1px solid #aaa; background-color: white; margin-top: 15px; padding: 12px; text-align: center;">
+        <p>
+            WireFrame &copy; 2026. Todos los derechos reservados.
+        </p>
+    </footer>
+
+</body>
+</html>
