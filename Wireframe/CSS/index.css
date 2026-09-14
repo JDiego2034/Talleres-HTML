@@ -1,0 +1,52 @@
+body {
+    font-family: 'Trebuchet MS', Arial;
+    margin: 15px;
+    background-color: #f5f7fa;
+}
+
+header {
+    border: 1px solid #aaa;
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h1, h3 {
+    color: #315f8c;
+}
+
+a {
+    color: #315f8c;
+}
+
+main {
+    display: flex;
+    gap: 15px;
+}
+
+section {
+    width: 50%;
+    border: 1px solid #aaa;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+section strong {
+    color: #315f8c;
+}
+
+button {
+    background-color: #315f8c;
+    color: white;
+    padding: 9px 25px;
+    border: 0;
+}
+
+footer {
+    border: 1px solid #aaa;
+    background-color: white;
+    margin-top: 15px;
+    padding: 12px;
+    text-align: center;
+}
