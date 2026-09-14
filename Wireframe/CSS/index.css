@@ -4,11 +4,13 @@ body {
     background-color: #f5f7fa;
 }
 
-header {
+.Header-Index {
     border: 1px solid #aaa;
-    background-color: white;
-    padding: 10px;
-    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+    margin-bottom: 15px;
+    height: 80px;
+    text-align: center;
 }
 
 h1, h3 {
@@ -24,7 +26,7 @@ main {
     gap: 15px;
 }
 
-section {
+.WireFrame-Info {
     width: 50%;
     border: 1px solid #aaa;
     background-color: white;
@@ -43,7 +45,7 @@ button {
     border: 0;
 }
 
-footer {
+.Footer-Index {
     border: 1px solid #aaa;
     background-color: white;
     margin-top: 15px;

@@ -4,11 +4,15 @@ body {
     background-color: #f5f7fa;
 }
 
-header {
-    border: 1px solid #aaa;
+.Header-CrearCuenta {
+    border: 0px solid #aaa;
     background-color: white;
     padding: 15px;
-    margin-bottom: 15px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    width: 47%;
+    text-align: center;
+    
 }
 
 header strong {
@@ -43,7 +47,7 @@ button {
     border: 0;
 }
 
-footer {
+.Footer-CrearCuenta {
     border: 1px solid #aaa;
     background-color: white;
     margin-top: 15px;

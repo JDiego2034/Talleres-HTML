@@ -4,7 +4,7 @@ body {
     background-color: #f5f7fa;
 }
 
-header {
+.Header-RecuperarCuenta {
     border: 1px solid #aaa;
     background-color: white;
     padding: 15px;
@@ -43,7 +43,7 @@ button {
     border: 0;
 }
 
-footer {
+.Footer-RecuperarCuenta {
     border: 1px solid #aaa;
     background-color: white;
     margin-top: 15px;
