@@ -1,0 +1,52 @@
+body {
+    font-family: 'Trebuchet MS', Arial;
+    margin: 15px;
+    background-color: #f5f7fa;
+    background-image:
+    linear-gradient(rgba(214, 176, 53, 0.3), rgba(214, 176, 53, 0.5)),
+    url("../imgs/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}   
+.logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: rgba(247, 244, 234, 0.9);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin-bottom:50px;
+}
+.nav-links {
+    background-color: rgba(247, 244, 234, 0.9);
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(250, 4, 4, 0.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    display: grid;
+    margin-bottom:20px;
+    max-width: 600px;
+    width: 100%;
+    margin: 0 auto;
+}
+a {
+    color: #de6007;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+.logo-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #de6007;
+    text-shadow: 1px 1px 2px rgba(250, 4, 4, 0.5);
+}
