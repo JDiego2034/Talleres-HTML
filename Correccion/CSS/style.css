@@ -1,0 +1,129 @@
+* {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  color: #2b2b2b;
+  line-height: 1.5;
+}
+
+/* ===== CABECERA ===== */
+.cabecera {
+  display: flex;
+  justify-content: left;
+  background-color: #2b2b52;
+  color: rgb(85, 191, 214);
+  padding: 25px;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.logo {
+  float: left;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.menu-nav {
+  float: right;
+}
+
+.menu-nav ul {
+  list-style: none;
+}
+
+.menu-nav li {
+  float: left;
+}
+
+.menu-nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  margin: 10px;
+}
+
+/* ===== PERFIL ===== */
+.perfil { 
+  display: flex;
+  align-items: center; 
+  padding: 50px 30px; 
+  background-color: #f2f2fb; } 
+
+  .foto-contenedor img { 
+  width: 160px; 
+  height: 160px; 
+  border-radius: 50%; 
+  object-fit: cover;
+  }
+
+.disponible-badge {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  background-color: #2ecc71;
+  color: #fff;
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 12px;
+} 
+
+.texto-perfil h1 {
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+/* ===== HABILIDADES ===== */
+.habilidades {
+  padding: 40px 30px;
+  text-align: center;
+}
+
+.habilidades h2 {
+  margin-bottom: 20px;
+}
+
+.skill-tag {
+  display: inline-block;
+  background-color: #e0e0f5;
+  padding: 8px 14px;
+  border-radius: 20px;
+  margin: 0 6px 10px;
+  font-size: 0.9rem;
+}
+
+/* ===== PROYECTOS ===== */
+.proyectos {
+  align-items: center;
+  justify-content: center;
+  padding: 20px 20px;
+
+}
+
+.proyectos h2 {
+  justify-content: center;
+  margin-bottom: 20px;
+  text-align: center;
+
+}
+
+.tarjeta-proyecto {
+  width: 300px;
+  height: 200px;
+  padding: 30px 30px;
+  border: 2px solid #333;
+  border-radius: 16px;
+  display: inline-block;
+  margin: 20px;
+  vertical-align: top;
+}
+
+/* ===== PIE ===== */
+.pie {
+  background-color: #2b2b2b;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+}
