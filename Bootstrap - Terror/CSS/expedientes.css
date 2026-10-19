@@ -1,0 +1,180 @@
+body {
+    background-color: #080f18;
+    color: #e7e8e8;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar-paranormal {
+    background-color: #05090f;
+    border-bottom: 1px solid #1c6d75;
+}
+
+.navbar-brand {
+    color: #d7bd7a;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.nav-link:hover, .navbar-brand:hover {
+    color: #55c4c7;
+}
+
+.hero {
+    padding: 100px 0;
+    background: linear-gradient(120deg, rgba(4, 10, 18, .96), rgba(5, 54, 64, .82)), #07131c;
+    border-bottom: 2px solid #9e292e;
+}
+
+.hero h1 {
+    color: #e0c987;
+    font-size: clamp(2.3rem, 5vw, 4.5rem);
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero .lead {
+    max-width: 700px;
+}
+
+.etiqueta {
+    color: #d84a4e;
+    font-size: .78rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.btn-paranormal {
+    background-color: #9e292e;
+    border: 1px solid #bd5556;
+    color: white;
+    padding: 10px 20px;
+}
+
+.btn-paranormal:hover {
+    background-color: #742025;
+    color: white;
+}
+
+.titulo-seccion, .encabezado-pagina h1 {
+    color: #e0c987;
+    font-weight: bold;
+}
+
+.texto-suave {
+    color: #b7c3c8;
+}
+
+.tarjeta, .tarjeta-pelicula, .formulario-paranormal {
+    background-color: #101d28;
+    color: #e7e8e8;
+    border: 1px solid #24424c;
+    border-radius: 8px;
+}
+
+.tarjeta {
+    transition: transform .2s, border-color .2s;
+}
+
+.tarjeta:hover, .tarjeta-pelicula:hover {
+    transform: translateY(-4px);
+    border-color: #2b9ba1;
+}
+
+.tarjeta .card-body {
+    padding: 25px;
+}
+
+.tarjeta h3, .tarjeta-pelicula h2, .formulario-paranormal label {
+    color: #e0c987;
+}
+
+.simbolo {
+    color: #d84a4e;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.enlace-paranormal, .footer-paranormal a {
+    color: #62c6c7;
+    text-decoration: none;
+}
+
+.enlace-paranormal:hover, .footer-paranormal a:hover {
+    color: #e0c987;
+    text-decoration: underline;
+}
+
+.franja-peliculas {
+    background-color: #0d202b;
+    border-top: 1px solid #1c6d75;
+    border-bottom: 1px solid #1c6d75;
+}
+
+.encabezado-pagina {
+    padding: 65px 0;
+    background: linear-gradient(120deg, #05090f, #0b303a);
+    border-bottom: 2px solid #9e292e;
+}
+
+.poster {
+    width: 100%;
+    height: 330px;
+    object-fit: cover;
+    object-position: center top;
+    background-color: #080f18;
+}
+
+.tarjeta-pelicula .card-body {
+    padding: 20px;
+}
+
+.sello {
+    display: inline-block;
+    align-self: flex-start;
+    color: #e0c987;
+    border: 1px solid #8b7543;
+    padding: 5px 9px;
+    font-size: .8rem;
+    border-radius: 3px;
+}
+
+.footer-paranormal {
+    background-color: #04070b;
+    color: #aeb8bd;
+    border-top: 1px solid #24424c;
+}
+
+.formulario-paranormal {
+    padding: 25px;
+}
+
+.form-control {
+    background-color: #07131c;
+    border-color: #34515b;
+    color: #f2f2f2;
+}
+
+.form-control:focus {
+    background-color: #07131c;
+    color: white;
+    border-color: #55c4c7;
+    box-shadow: 0 0 0 .2rem rgba(85, 196, 199, .15);
+}
+
+@media (max-width: 575.98px) {
+    .hero {
+        padding: 75px 0;
+    }
+
+    .encabezado-pagina {
+        padding: 50px 0;
+    }
+
+    .poster {
+        height: auto;
+        max-height: 480px;
+        object-fit: contain;
+    }
+}
